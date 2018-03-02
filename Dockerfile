@@ -19,5 +19,5 @@ RUN wget http://www-us.apache.org/dist/servicemix/servicemix-${SERVICEMIX_VERSIO
 
 
 VOLUME ["/deploy"]
-EXPOSE 1099 8101 8181 8161 61613 61616 44444
+EXPOSE 80 443 1099 8080 8101 8181 8161 61613 61616 44444
 ENTRYPOINT ["/opt/servicemix/bin/servicemix"]
